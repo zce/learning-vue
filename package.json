@@ -1,0 +1,31 @@
+{
+  "name": "learning-vue",
+  "version": "0.1.0",
+  "description": "Learning Vue.js 2.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server . --directory --files \"step-*\" --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/learning-vue.git"
+  },
+  "keywords": [
+    "learning",
+    "vue",
+    "vue.js",
+    "iceStone"
+  ],
+  "author": "iceStone <ice@micua.com> (http://www.micua.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zce/learning-vue/issues"
+  },
+  "homepage": "https://github.com/zce/learning-vue#readme",
+  "dependencies": {
+    "vue": "^2.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.0"
+  }
+}

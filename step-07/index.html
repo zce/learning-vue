@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Step 07 - Component define</title>
+  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css">
+</head>
+<body>
+  <div id="app">
+    <app-header></app-header>
+    <app-footer></app-footer>
+  </div>
+  <script src="../node_modules/vue/dist/vue.js"></script>
+  <script>
+    Vue.component('app-header', {
+      template: '<header><h1>Page Header</h1></header>'
+    })
+    Vue.component('app-footer', {
+      template: '<footer><h2>Page Footer</h2></footer>'
+    })
+    var app = new Vue({
+      el: '#app'
+    })
+  </script>
+</body>
+</html>
